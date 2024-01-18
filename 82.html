@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 1280px;
+            height: 500px;
+            background-color: gray;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            /*justify-content: space-between;*/
+        }
+
+        .box {
+            width: 500px;
+            height: 100px;
+
+        }
+
+        .bg-blue{
+            background-color: blue;
+            flex-shrink: 3;
+        }
+        .bg-red{
+            background-color: red;
+            flex-shrink: 1;
+        }
+
+        .bg-purple{
+            background-color: purple;
+            flex-shrink: 1;
+        }
+
+        .bg-green{
+            background-color: green;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="box bg-blue"></div>
+    <div class="box bg-purple"></div>
+    <div class="box bg-green"></div>
+    <div class="box bg-red"></div>
+
+</div>
+
+</body>
+</html>
